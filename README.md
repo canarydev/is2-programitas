@@ -12,4 +12,5 @@ El primer paso es crear un vector y seguidamente el programa dirá cuantos núme
 apariciones de cada uno de ellos.
 
 NumberCounter1 por ejemplo, es la primera aproximación a una buena resolución del programa, sin el uso de HashMap.
----------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------
