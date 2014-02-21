@@ -12,6 +12,7 @@ public class MainCounter {
         while (condicion){
             System.out.println("Puedes elegir que programa quieres ejecutar:");
             System.out.println("1) NumberCounter1");
+            System.out.println("2) NumberCounter2");
             System.out.println("0) Salir de la ejecución");
             selector = teclado.nextInt();
             System.out.println("");
