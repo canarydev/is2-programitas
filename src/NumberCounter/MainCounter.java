@@ -21,6 +21,13 @@ public class MainCounter {
                     v = OpVector.InicializaVector();
                     NumberCounter1.NumberCounter1(v);
                 }
+                case 2: {
+                    int[] v;
+                    v = OpVector.InicializaVector();
+                    System.out.println(OpVector.NumeroDistintos(v));
+                    OpVector.ImprimeVector(OpVector.VectorDistintos(v));
+                    NumberCounter2.NumberCounter2(v);
+                }
                 case 0: condicion = false;
             }
         }
