@@ -20,7 +20,7 @@ public class MainCounter {
                     int[] v;
                     v = OpVector.InicializaVector();
                     NumberCounter1.NumberCounter1(v);
-                    break;
+                    continue;
                 }
                 case 2: {
                     int[] v;
@@ -28,7 +28,7 @@ public class MainCounter {
                     System.out.println(OpVector.NumeroDistintos(v));
                     OpVector.ImprimeVector(OpVector.VectorDistintos(v));
                     NumberCounter2.NumberCounter2(v);
-                    break;
+                    continue;
                 }
                 case 0: condicion = false;
             }
