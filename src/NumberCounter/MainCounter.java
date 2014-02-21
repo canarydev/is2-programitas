@@ -2,7 +2,7 @@ package NumberCounter;
 import java.util.Scanner;
 
 public class MainCounter {
-//2,3,4,5,5,9,2,9,8,5,7,3,7,4
+
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         boolean condicion = true;
