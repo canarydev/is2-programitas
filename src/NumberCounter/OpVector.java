@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 
 public class OpVector {
-    private static Scanner teclado = new Scanner(System.in);
+    private static final Scanner teclado = new Scanner(System.in);
     private static int num;
     
     public static int[] InicializaVector (){
