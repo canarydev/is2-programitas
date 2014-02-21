@@ -12,12 +12,12 @@ public class OpVector {
         System.out.println("Introduce el número de elementos");
         num = teclado.nextInt();
         vector = new int [num];
-        vector = ReyenaVector(vector);
+        vector = RellenaVector(vector);
         ImprimeVector(vector);
         return vector;
     }
     
-    private static int[] ReyenaVector(int[] vector){
+    private static int[] RellenaVector(int[] vector){
         for (int i = 0; i < vector.length; i++) {
             System.out.println("Introduce el elemento [" + i + "]" );
             num = teclado.nextInt();

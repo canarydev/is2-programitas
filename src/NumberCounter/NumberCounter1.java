@@ -18,12 +18,12 @@ public class NumberCounter1 {
                 for (int i = 0; i < v2.length; i++) {    
                     if (x == v2[i]) y++;
                   else {
-                      System.out.println("El número "+ x + " ha aparecido " + y+ " veces");
+                      System.out.println("El número "+ x + " ha aparecido " + y + " veces");
                       x = v2[i];
                       y = 1;
                     }
                 }
-            System.out.println("El número "+ x + " ha aparecido " + y+ " veces");
+            System.out.println("El número "+ x + " ha aparecido " + y + " veces");
         }
         else if (v.length == 1){
             System.out.println("El número "+ x + " ha aparecido " + 1 + " vez");
