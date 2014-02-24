@@ -4,7 +4,8 @@
  *Se trata de contar cuantos números diferentes hay en el vector. Luego, con la
  *ayuda de otro vector que crearemos insertaremos cada uno de los números
  *diferentes encontrados. Por último recorreremos el primer vector tantas veces
- *como números diferentes existan e iremos dando (sin orden alguno) la respuesta.
+ *como números diferentes existan e iremos dando (sin orden alguno) la respuesta
+ *sobre cuantas apariciones tiene cada número.
  */
 package NumberCounter;
 
