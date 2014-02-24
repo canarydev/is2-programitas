@@ -17,10 +17,10 @@ public class NumberCounter1 {
                 OpVector.ImprimeVector(v2);
                 for (int i = 0; i < v2.length; i++) {    
                     if (x == v2[i]) y++;
-                  else {
-                      System.out.println("El número "+ x + " ha aparecido " + y + " veces");
-                      x = v2[i];
-                      y = 1;
+                    else {
+                        System.out.println("El número "+ x + " ha aparecido " + y + " veces");
+                         x = v2[i];
+                         y = 1;
                     }
                 }
             System.out.println("El número "+ x + " ha aparecido " + y + " veces");
