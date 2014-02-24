@@ -46,7 +46,6 @@ public class OpVector {
             if (v2[i-1] <= v1[i]) {
                 v2[i] = v1[i];
             }
-                                                 
             else {
                 while ((j !=0 ) && (v1[i] < v2[j-1])) {
                     v2[j] = v2[j-1];
