@@ -9,19 +9,23 @@
  */
 package NumberCounter;
 
+import Operaciones.Imprimir;
+import Vectores.OpVector;
 
 public class NumberCounter2 {
+
     public static void NumberCounter2(int[] v1) {
-        int [] v2 = OpVector.VectorDistintos(v1);
+        int[] v2 = OpVector.VectorDistintos(v1);
         int y;
         for (int i = 0; i < v2.length; i++) {
             y = 0;
             for (int j = 0; j < v1.length; j++) {
-                if (v2[i] == v1 [j]){
+                if (v2[i] == v1[j]) {
                     y++;
                 }
             }
-            System.out.println("El número "+ v2[i] + " ha aparecido " + y + " veces");   
-        }    
+            Imprimir.Imprime(v2[i], y);
+            //System.out.println("El número " + v2[i] + " ha aparecido " + y + " veces");
+        }
     }
 }

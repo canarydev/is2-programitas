@@ -1,4 +1,6 @@
 package NumberCounter;
+
+import Vectores.OpVector;
 import java.util.Scanner;
 
 public class MainCounter {
@@ -9,7 +11,7 @@ public class MainCounter {
         int selector;
         System.out.print("Bienvenid@ al programa para contar apariciones del");
         System.out.println(" mismo número en un vector.");
-        while (condicion){
+        while (condicion) {
             System.out.println("Puedes elegir que programa quieres ejecutar:");
             System.out.println("1) NumberCounter1");
             System.out.println("2) NumberCounter2");
@@ -31,7 +33,8 @@ public class MainCounter {
                     NumberCounter2.NumberCounter2(v);
                     continue;
                 }
-                case 0: condicion = false;
+                case 0:
+                    condicion = false;
             }
         }
     }
